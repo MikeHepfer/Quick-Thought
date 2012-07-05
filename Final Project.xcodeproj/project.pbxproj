@@ -13,13 +13,15 @@
 		3F7787CB15A5214600DC93D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7787C915A5214600DC93D9 /* InfoPlist.strings */; };
 		3F7787CD15A5214600DC93D9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7787CC15A5214600DC93D9 /* main.m */; };
 		3F7787D115A5214600DC93D9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7787D015A5214600DC93D9 /* AppDelegate.m */; };
-		3F7787D415A5214600DC93D9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7787D215A5214600DC93D9 /* MainStoryboard.storyboard */; };
 		3F7787D715A5214600DC93D9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7787D615A5214600DC93D9 /* ViewController.m */; };
 		3F7787DF15A5214600DC93D9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7787DE15A5214600DC93D9 /* SenTestingKit.framework */; };
 		3F7787E015A5214600DC93D9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7787C015A5214600DC93D9 /* UIKit.framework */; };
 		3F7787E115A5214600DC93D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7787C215A5214600DC93D9 /* Foundation.framework */; };
 		3F7787E915A5214600DC93D9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F7787E715A5214600DC93D9 /* InfoPlist.strings */; };
 		3F7787EC15A5214600DC93D9 /* Final_ProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F7787EB15A5214600DC93D9 /* Final_ProjectTests.m */; };
+		3F7787F715A521D200DC93D9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7787F615A521D200DC93D9 /* MainStoryboard.storyboard */; };
+		3F7787FA15A521E000DC93D9 /* Big_GREEN_Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7787F815A521E000DC93D9 /* Big_GREEN_Button.png */; };
+		3F7787FB15A521E000DC93D9 /* red button.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F7787F915A521E000DC93D9 /* red button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,23 @@
 		3F7787C015A5214600DC93D9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3F7787C215A5214600DC93D9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3F7787C415A5214600DC93D9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		3F7787C815A5214600DC93D9 /* Final Project-Info.plist */ = {isa = PBXFileReference; path = "Final Project-Info.plist"; sourceTree = "<group>"; };
+		3F7787C815A5214600DC93D9 /* Final Project-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Final Project-Info.plist"; sourceTree = "<group>"; };
 		3F7787CA15A5214600DC93D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3F7787CC15A5214600DC93D9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3F7787CE15A5214600DC93D9 /* Final Project-Prefix.pch */ = {isa = PBXFileReference; path = "Final Project-Prefix.pch"; sourceTree = "<group>"; };
-		3F7787CF15A5214600DC93D9 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F7787CE15A5214600DC93D9 /* Final Project-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Final Project-Prefix.pch"; sourceTree = "<group>"; };
+		3F7787CF15A5214600DC93D9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3F7787D015A5214600DC93D9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3F7787D315A5214600DC93D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		3F7787D515A5214600DC93D9 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		3F7787D515A5214600DC93D9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3F7787D615A5214600DC93D9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3F7787DD15A5214600DC93D9 /* Final ProjectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7787DE15A5214600DC93D9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		3F7787E615A5214600DC93D9 /* Final ProjectTests-Info.plist */ = {isa = PBXFileReference; path = "Final ProjectTests-Info.plist"; sourceTree = "<group>"; };
+		3F7787E615A5214600DC93D9 /* Final ProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Final ProjectTests-Info.plist"; sourceTree = "<group>"; };
 		3F7787E815A5214600DC93D9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		3F7787EA15A5214600DC93D9 /* Final_ProjectTests.h */ = {isa = PBXFileReference; path = Final_ProjectTests.h; sourceTree = "<group>"; };
+		3F7787EA15A5214600DC93D9 /* Final_ProjectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Final_ProjectTests.h; sourceTree = "<group>"; };
 		3F7787EB15A5214600DC93D9 /* Final_ProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Final_ProjectTests.m; sourceTree = "<group>"; };
+		3F7787F615A521D200DC93D9 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3F7787F815A521E000DC93D9 /* Big_GREEN_Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Big_GREEN_Button.png; sourceTree = "<group>"; };
+		3F7787F915A521E000DC93D9 /* red button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red button.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,9 +117,11 @@
 			children = (
 				3F7787CF15A5214600DC93D9 /* AppDelegate.h */,
 				3F7787D015A5214600DC93D9 /* AppDelegate.m */,
-				3F7787D215A5214600DC93D9 /* MainStoryboard.storyboard */,
+				3F7787F615A521D200DC93D9 /* MainStoryboard.storyboard */,
 				3F7787D515A5214600DC93D9 /* ViewController.h */,
 				3F7787D615A5214600DC93D9 /* ViewController.m */,
+				3F7787F815A521E000DC93D9 /* Big_GREEN_Button.png */,
+				3F7787F915A521E000DC93D9 /* red button.png */,
 				3F7787C715A5214600DC93D9 /* Supporting Files */,
 			);
 			path = "Final Project";
@@ -222,7 +228,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F7787CB15A5214600DC93D9 /* InfoPlist.strings in Resources */,
-				3F7787D415A5214600DC93D9 /* MainStoryboard.storyboard in Resources */,
+				3F7787F715A521D200DC93D9 /* MainStoryboard.storyboard in Resources */,
+				3F7787FA15A521E000DC93D9 /* Big_GREEN_Button.png in Resources */,
+				3F7787FB15A521E000DC93D9 /* red button.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,14 +296,6 @@
 				3F7787CA15A5214600DC93D9 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3F7787D215A5214600DC93D9 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F7787D315A5214600DC93D9 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		3F7787E715A5214600DC93D9 /* InfoPlist.strings */ = {
